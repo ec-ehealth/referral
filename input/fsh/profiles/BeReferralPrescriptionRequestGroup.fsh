@@ -2,7 +2,6 @@ Profile: BeReferralPrescriptionRequestGroup
 Parent: RequestGroup
 Id: be-referralprescription-request-group
 Description: "Envelope that allows different referralprescriptions to have an order"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-referralprescription-request-group"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2021-10-07T08:52:50+00:00"
