@@ -2,7 +2,6 @@ CodeSystem: BeCSCoPrescriberChoice
 Id: be-cs-co-prescriber-choice
 Title: "BeCSCoPrescriberChoice"
 Description: "Type of intended performer choice"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-cs-co-prescriber-choice"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^experimental = false
