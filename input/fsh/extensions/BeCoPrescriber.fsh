@@ -27,7 +27,7 @@ Description: "Other practitioners that must take part in this prescripiton"
 * extension[coprescriptionStatus].value[x] only CodeableConcept
 * extension[coprescriptionStatus].valueCodeableConcept 1..1
 * extension[coprescriptionStatus].valueCodeableConcept from BeCoPrescriptionStatus (required)
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-co-prescriber" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-co-prescriber" (exactly)
 * extension[required].value[x] only CodeableConcept
 * extension[required].valueCodeableConcept 1..1
 * extension[required].valueCodeableConcept from BeVsCoPrescriberChoice (required)
