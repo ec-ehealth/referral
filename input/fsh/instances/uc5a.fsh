@@ -26,7 +26,7 @@ InstanceOf: BeReferralPrescriptionNursing
 * occurrenceTiming.repeat.count = 1
 * extension[performerType][+].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" //other code?
 * extension[performerType][=].valueCodeableConcept.coding.code = #persnurse
-* bodySite.extension[bodyLaterality].valueCoding = $sct#419161000
+* bodySite[0].extension[url="http://hl7.org/fhir/StructureDefinition/bodySite-laterality"].valueCodeableConcept = $sct#419161000
 * bodySite.coding = $sct#14975008
  
 
