@@ -2,7 +2,6 @@ Extension: BeLatestDraftDate
 Id: be-ext-latest-draft-date
 Title: "BeLatestDraftDate"
 Description: "Request must leave draft status before"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-latest-draft-date"
 * ^version = "0.2.0"
 * ^date = "2022-05-03T10:04:16+02:00"
 * ^publisher = "HL7 Belgium"
