@@ -2,7 +2,6 @@ Profile: BeReferralPrescription
 Parent: ServiceRequest
 Id: be-referralprescription
 Description: "The common structure for referral prescription."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-referralprescription"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
