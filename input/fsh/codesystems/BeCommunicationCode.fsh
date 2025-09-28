@@ -2,7 +2,6 @@ CodeSystem: BeCommunicationCode
 Id: be-communication-code
 Title: "BeCommunicationCode"
 Description: "Communication codes in Belgium. To define a specific method of communicating. Initially defined as supporting CodeSystem for the referral prescription."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-communication-code"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^experimental = false
