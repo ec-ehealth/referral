@@ -2,7 +2,6 @@ Extension: BeCoPrescriberInfo
 Id: be-co-prescriber-info
 Title: "BeCoPrescriberInfo"
 Description: "Info about the other practitioners that must take part in this prescripiton"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-co-prescriber-info"
 * ^version = "0.2.0"
 * ^date = "2022-05-03T10:04:16+02:00"
 * ^publisher = "HL7 Belgium"
