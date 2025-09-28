@@ -2,7 +2,6 @@ CodeSystem: BePrescriptionProposalType
 Id: be-prescription-proposal-type
 Title: "BePrescriptionProposalType"
 Description: "Prescription Proposal Type. Indicates the type of proposal (new or prolongation) as from the uses cases by NIHDI"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-prescription-proposal-type"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^experimental = false
