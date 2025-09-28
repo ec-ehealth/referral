@@ -12,7 +12,7 @@ InstanceOf: BeReferralPrescriptionNursing
 * authoredOn = "2022-10-03T00:00:00+01:00"
 * subject.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * subject.identifier.value = "38012699993"
-* code = https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-cs-temp-requested-service#tmp-dres-eter-4	
+* code = https://www.ehealth.fgov.be/standards/fhir/drp/CodeSystem/be-cs-temp-requested-service#tmp-dres-eter-4	
 * category =  $sct#9632001
 * intent = #order
 * status = #draft
@@ -41,7 +41,7 @@ InstanceOf: BeReferralPrescriptionNursing
 * extension[feedback].valueBoolean = false
 * extension[performerType][+].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" //other code?
 * extension[performerType][=].valueCodeableConcept.coding.code = #persnurse
-* requisition.system = "https://www.ehealth.fgov.be/standards/fhir/referral/NamingSystem/uhmep"
+* requisition.system = "https://www.ehealth.fgov.be/standards/fhir/drp/NamingSystem/uhmep"
 * requisition.value = "27e5a4a4-e043-11ed-b5ea-0242ac120002"
 * occurrenceDateTime = "2022-10-10"
 * reasonCode.coding.display = "chemotherapy via \"implantable venous access port catheter\""
@@ -54,18 +54,18 @@ InstanceOf: BeReferralPrescriptionNursing
 * authoredOn = "2022-10-03T00:00:00+01:00"
 * subject.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * subject.identifier.value = "38012699993"
-* code = https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-cs-temp-requested-service#tmp-plac-edle-0 //? correct
+* code = https://www.ehealth.fgov.be/standards/fhir/drp/CodeSystem/be-cs-temp-requested-service#tmp-plac-edle-0 //? correct
 * category =  $sct#9632001
 * intent = #order
 * status = #draft
 * extension[validity].valuePeriod.start = "2022-10-03"
 * extension[validity].valuePeriod.end = "2023-04-03"
 * extension[feedback].valueBoolean = false
-//* orderDetail = https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-cs-temp-requested-service-detail#tmp-hube-type-3
+//* orderDetail = https://www.ehealth.fgov.be/standards/fhir/drp/CodeSystem/be-cs-temp-requested-service-detail#tmp-hube-type-3
 * note.text = "Huber needle type: 20G x 25mm (not available for june release -> is device)"
 * extension[performerType][+].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" //other code?
 * extension[performerType][=].valueCodeableConcept.coding.code = #persnurse
-* requisition.system = "https://www.ehealth.fgov.be/standards/fhir/referral/NamingSystem/uhmep"
+* requisition.system = "https://www.ehealth.fgov.be/standards/fhir/drp/NamingSystem/uhmep"
 * requisition.value = "27e5a4a4-e043-11ed-b5ea-0242ac120002"
 * occurrenceDateTime = "2022-10-10"
 
