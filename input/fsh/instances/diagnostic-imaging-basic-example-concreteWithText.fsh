@@ -8,9 +8,9 @@ Usage: #example
 * extension[validity].valuePeriod.end = "2021-01-01"
 * extension[feedback].valueBoolean = true
 * extension[statusReason].valueCodeableConcept = $be-status-reason#inProgress "In progress"
-* extension[https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-supporting-info].url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-supporting-info"
-* extension[https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-supporting-info].valueAnnotation.text = "Inversietrauma rechtervoet 20/1"
-* modifierExtension.url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contraindication"
+* extension[https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info].url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info"
+* extension[https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info].valueAnnotation.text = "Inversietrauma rechtervoet 20/1"
+* modifierExtension.url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-contraindication"
 * modifierExtension.valueCodeableConcept = $v3-NullFlavor#ASKU "asked but unknown"
 * status = #active
 * intent = #order
