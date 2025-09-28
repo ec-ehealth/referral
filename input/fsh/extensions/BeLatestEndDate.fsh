@@ -17,5 +17,5 @@ Description: "Request must be performed before"
 * . ^definition = "Request must be performed before"
 * ^context.type = #element
 * ^context.expression = "ServiceRequest"
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-latest-end-date" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-latest-end-date" (exactly)
 * value[x] only BeYearMonthDay
