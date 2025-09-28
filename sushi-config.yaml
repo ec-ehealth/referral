@@ -1,10 +1,10 @@
-canonical: https://www.ehealth.fgov.be/standards/fhir/referral
+canonical: https://www.ehealth.fgov.be/standards/fhir/drp
 fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
-id: hl7.fhir.be.referral
-name: Referral Prescription
-title: Referral Prescription
+id: hl7.fhir.be.drp
+name: Digital Referral Prescription
+title: Digital Referral Prescription
 status: draft
 version: 1.0.0
 copyrightYear: 2022+
@@ -65,7 +65,7 @@ menu:
     Value Sets: artifacts.html#4
   Downloads: downloads.html
   Changes: changes.html
-  History: "https://www.ehealth.fgov.be/standards/fhir/referral/history.html"
+  History: "https://www.ehealth.fgov.be/standards/fhir/drp/history.html"
 
 
 parameters:
