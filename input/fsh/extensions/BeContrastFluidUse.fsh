@@ -19,7 +19,7 @@ Description: "Whether the use of contrast fluid in diagnostic imaging can be def
 * . ?!
 * . ^short = "Whether the use of contrast fluid in diagnostic imaging can be defined as 'If necessary' or 'Not permitted.'"
 * . ^isModifierReason = "Possible not permitted use of contrast fluid."
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contrastfluiduse" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-contrastfluiduse" (exactly)
 * value[x] 1..
 * value[x] only code
 * value[x] from BeContrastFluidUse (required)
