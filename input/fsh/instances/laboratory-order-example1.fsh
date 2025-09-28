@@ -19,7 +19,7 @@ Usage: #example
 * extension[urgentCommunication].extension[instructions].valueString = "Send the requester an email, when the test is done."
 * extension[urgentCommunication].extension[contactway].extension[contactSystem].valueCodeableConcept = $contact-point-system_1#email "email"
 * extension[urgentCommunication].extension[contactway].extension[contactSystemValue].valueString = "doctor@mycabinet.be"
-* identifier.system = "https://www.ehealth.fgov.be/standards/fhir/referral/NamingSystem/uhmep"
+* identifier.system = "https://www.ehealth.fgov.be/standards/fhir/drp/NamingSystem/uhmep"
 * identifier.value = "XXXXXX"
 * status = #active
 * intent = #original-order
