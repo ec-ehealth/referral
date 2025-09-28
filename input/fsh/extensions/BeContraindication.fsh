@@ -2,7 +2,6 @@ Extension: BeContraindication
 Id: be-ext-contraindication
 Title: "BeContraindication"
 Description: "Contra indication in a prescription referral for diagnostic imaging."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contraindication"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
