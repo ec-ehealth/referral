@@ -2,7 +2,7 @@ Instance: be-sp-task-status-profile
 InstanceOf: SearchParameter
 Title: "BeSPTaskStatusProfile"
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/SearchParameter/be-sp-task-status-profile"
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/SearchParameter/be-sp-task-status-profile"
 * status = #active
 * description = "This SearchParameter enables query of Tasks on the combination of status and profile"
 * name = "statusProfile"
