@@ -33,4 +33,4 @@ Usage: #definition
 * parameter.documentation = "reason for the cancelling"
 * parameter.type = #code
 * parameter.binding.strength = #required
-* parameter.binding.valueSet = "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-reason-referral-status"
+* parameter.binding.valueSet = "https://www.ehealth.fgov.be/standards/fhir/drp/ValueSet/be-vs-reason-referral-status"
