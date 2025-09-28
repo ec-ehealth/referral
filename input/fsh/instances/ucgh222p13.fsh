@@ -32,7 +32,7 @@ InstanceOf: BeReferralPrescriptionNursing
 * extension[performerType][+].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" //other code?
 * extension[performerType][=].valueCodeableConcept.coding.code = #persnurse
 * bodySite = $sct#14975008
-* bodySite.extension[bodyLaterality].valueCoding = $sct#419161000
+* bodySite[0].extension[url="http://hl7.org/fhir/StructureDefinition/bodySite-laterality"].valueCodeableConcept = $sct#419161000
 * note.text = "Flamazine"
 
 Instance: ucgh222p13-2
