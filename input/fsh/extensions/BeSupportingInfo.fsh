@@ -2,7 +2,6 @@ Extension: BeSupportingInfo
 Id: be-ext-supporting-info
 Title: "BeSupportingInfo"
 Description: "Relevant clinical information in the context of this prescription concerning for example allergies, kidney function, diabetic. This extension allows the use of an Annotation or codeableConcept but when more detailed information can be given, it is RECOMMENDED to express it as structured as possible using the appropriate elements."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-supporting-info"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
@@ -19,6 +18,6 @@ Description: "Relevant clinical information in the context of this prescription 
 * ^context.expression = "ServiceRequest"
 * . ^short = "Supporting Information"
 * . ^isModifier = false
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-supporting-info" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info" (exactly)
 * value[x] 1..
 * value[x] only Annotation or CodeableConcept
