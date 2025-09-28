@@ -3,7 +3,6 @@ Parent: BeReferralPrescription
 Id: be-referralprescription-diagnosticimaging
 Description: """Referral prescription for a generic diagnostic imaging.
 Please note in .orderDetail, a specific slicing is available to give guidance how to express acquisition modalities if needed. In future iterations of this profile, more slicing might provide additional guidance."""
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-referralprescription-diagnosticimaging"
 * ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
 * ^publisher = "HL7 Belgium"
