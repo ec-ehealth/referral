@@ -8,9 +8,9 @@ Usage: #example
 * extension[validity].valuePeriod.start = "2020-01-01"
 * extension[validity].valuePeriod.end = "2021-01-01"
 * extension[feedback].valueBoolean = true
-* modifierExtension[0].url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contraindication"
+* modifierExtension[0].url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-contraindication"
 * modifierExtension[=].valueCodeableConcept = $v3-NullFlavor#ASKU "asked but unknown"
-* modifierExtension[+].url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contrastfluiduse"
+* modifierExtension[+].url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-contrastfluiduse"
 * modifierExtension[=].valueCode = #if-necessary
 * status = #active
 * intent = #order
