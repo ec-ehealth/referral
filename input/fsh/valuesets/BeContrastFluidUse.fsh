@@ -2,7 +2,6 @@ ValueSet: BeContrastFluidUse
 Title: "BeContrastFluidUse"
 Id: be-vs-contrastfluid-use
 Description: "Codes to define the use of contrast fluid."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-contrastfluid-use"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2022-05-03T10:04:16+02:00"
