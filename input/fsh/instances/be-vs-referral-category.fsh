@@ -5,7 +5,7 @@ Description: "Codes to define the high level category for a referral prescriptio
 Usage: #definition
 * experimental = false
 * title = "BeReferralCategory"
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-referral-category"
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/ValueSet/be-vs-referral-category"
 * version = "0.2.0"
 * name = "BeReferralCategory"
 * status = #draft
