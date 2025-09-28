@@ -11,7 +11,7 @@ Usage: #example
 * extension[feedback].valueBoolean = true
 * extension[https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info].url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info"
 * extension[https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-supporting-info].valueAnnotation.text = "Some relevant supporting information"
-* modifierExtension.url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contraindication"
+* modifierExtension.url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-contraindication"
 * modifierExtension.valueAnnotation.text = "Patient has serious kidney problems."
 * status = #active
 * intent = #order
