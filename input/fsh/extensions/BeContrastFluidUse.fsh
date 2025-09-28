@@ -2,7 +2,6 @@ Extension: BeContrastFluidUse
 Id: be-ext-contrastfluiduse
 Title: "BeContrastFluidUse"
 Description: "Whether the use of contrast fluid in diagnostic imaging can be defined as 'If necessary' or 'Not permitted.'"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contrastfluiduse"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
