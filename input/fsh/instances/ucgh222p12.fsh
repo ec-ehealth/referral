@@ -21,7 +21,7 @@ InstanceOf: BeReferralPrescriptionNursing
 * extension[feedback].valueBoolean = false
 * extension[performerType][+].valueCodeableConcept.coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" //other code?
 * extension[performerType][=].valueCodeableConcept.coding.code = #persnurse
-* requisition.system = "https://www.ehealth.fgov.be/standards/fhir/referral/NamingSystem/uhmep"
+* requisition.system = "https://www.ehealth.fgov.be/standards/fhir/drp/NamingSystem/uhmep"
 * requisition.value = "27e5a4a4-e043-11ed-b5ea-0242ac120002"
 * occurrenceDateTime = "2022-10-10"
 
