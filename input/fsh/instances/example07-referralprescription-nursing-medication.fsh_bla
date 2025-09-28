@@ -5,7 +5,7 @@ Usage: #example
 * contained[+] = patient1
 * contained[+] = practitionerrole1
 * statusReason = $be-status-reason#inProgress "In progress"
-* identifier.system = "https://www.ehealth.fgov.be/standards/fhir/referral/NamingSystem/uhmep"
+* identifier.system = "https://www.ehealth.fgov.be/standards/fhir/drp/NamingSystem/uhmep"
 * identifier.value = "UHMEPVALUE"
 * status = #active
 * intent = #order
