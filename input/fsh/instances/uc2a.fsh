@@ -35,7 +35,7 @@ Instance: referral-task-uc2a-1 //we cannot throw it away, because we need the st
 InstanceOf: BeReferralTask
 * status = #draft
 * intent = #order
-* statusReason = https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-treatment-status-reason#blacklistedcaregiver
+* statusReason = https://www.ehealth.fgov.be/standards/fhir/drp/CodeSystem/be-treatment-status-reason#blacklistedcaregiver
 * focus = Reference(uc2a-1)
 * executionPeriod.start = "2023-01-28"
 * executionPeriod.end = "2023-03-02"
@@ -65,7 +65,7 @@ InstanceOf: BePerformerTask
 Instance: uc2a
 InstanceOf: BeReferralPrescriptionRequestGroup
 Usage: #example
-* identifier.system = "https://www.ehealth.fgov.be/standards/fhir/referral/NamingSystem/uhmep"
+* identifier.system = "https://www.ehealth.fgov.be/standards/fhir/drp/NamingSystem/uhmep"
 * identifier.value = "5752e55e-9d8a-11ed-a8fc-0242ac120002"
 * status = #draft
 * intent = #order
@@ -83,7 +83,7 @@ Usage: #example
 Instance: uc2a-2
 InstanceOf: BeReferralPrescriptionNursing
 * code = $sct#413899004
-//* orderDetail = https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-cs-temp-requested-service-detail#tmp-long-etch-2
+//* orderDetail = https://www.ehealth.fgov.be/standards/fhir/drp/CodeSystem/be-cs-temp-requested-service-detail#tmp-long-etch-2
 * extension[statusReason].valueCodeableConcept = $be-status-reason#inProgress "In progress"
 * reasonCode = $sct#44653001 //niet in Belgische module
 * requester.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
