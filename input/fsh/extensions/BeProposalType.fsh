@@ -2,7 +2,6 @@ Extension: BeProposalType
 Id: be-ext-proposal-type
 Title: "BeProposalType"
 Description: "Type of proposal"
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-proposal-type"
 * ^version = "0.2.0"
 * ^date = "2022-05-03T10:04:16+02:00"
 * ^publisher = "HL7 Belgium"
@@ -18,7 +17,7 @@ Description: "Type of proposal"
 * . ^definition = "Type of proposal"
 * ^context.type = #element
 * ^context.expression = "ServiceRequest"
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-proposal-type" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-proposal-type" (exactly)
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1
 * valueCodeableConcept from BeVsProposalType (required)
