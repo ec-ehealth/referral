@@ -19,6 +19,6 @@ Description: "Contra indication in a prescription referral for diagnostic imagin
 * . ?!
 * . ^short = "Relevant information in the context of a prescription concerning possible contra indication. For example presence of devices or (suspected) pregnancy. When detailed information can be given, it is RECOMMENDED to express it as structured as possible. If prescriber has no knowledge of contra indication, this SHALL be expressed with a nullFlavor ( e.g. ASKU = Information was sought but not found ) in codeableConcept."
 * . ^isModifierReason = "Contra indication"
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-contraindication" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-contraindication" (exactly)
 * value[x] 1..
 * value[x] only Annotation or CodeableConcept or Reference(Device or Condition or MedicationStatement or BeObservation or BeAllergyIntolerance)
