@@ -2,7 +2,6 @@ ValueSet: BeCommunicationMethod
 Title: "BeCommunicationMethod"
 Id: be-vs-communication-method
 Description: "Codes to define a communication method."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-communication-method"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^experimental = false
