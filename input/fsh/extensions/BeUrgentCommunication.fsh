@@ -2,7 +2,6 @@ Extension: BeUrgentCommunication
 Id: be-ext-urgent-communication
 Title: "BeUrgentCommunication"
 Description: "When there is a need to urgently communicate results of an order."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-urgent-communication"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
@@ -41,5 +40,5 @@ Description: "When there is a need to urgently communicate results of an order."
 * extension[contactway].extension[contactSystem].valueCodeableConcept from BeCommunicationMethod (preferred)
 
 * extension[contactway].extension[contactSystemValue].value[x] only string
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-urgent-communication" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-urgent-communication" (exactly)
 //* value[x] only base64Binary or boolean or canonical or code or date or dateTime or decimal or id or instant or integer or markdown or oid or positiveInt or string or time or unsignedInt or uri or url or uuid or Address or Age or Annotation or Attachment or CodeableConcept or Coding or ContactPoint or Count or Distance or Duration or HumanName or Identifier or Money or Period or Quantity or Range or Ratio or SampledData or Signature or Timing or ContactDetail or Contributor or DataRequirement or Expression or ParameterDefinition or RelatedArtifact or TriggerDefinition or UsageContext or Dosage or Reference(BePractitioner or BeOrganization or BePatient)
