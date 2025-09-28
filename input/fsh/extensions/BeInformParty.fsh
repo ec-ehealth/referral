@@ -18,6 +18,6 @@ Description: "Extra parties that need to be informed of the outcome, besides the
 * ^context.expression = "Resource"
 * . ^short = "Inform party"
 * . ^isModifier = false
-* url = "https://www.ehealth.fgov.be/standards/fhir/referral/StructureDefinition/be-ext-inform-party" (exactly)
+* url = "https://www.ehealth.fgov.be/standards/fhir/drp/StructureDefinition/be-ext-inform-party" (exactly)
 * value[x] 1..
 * value[x] only Reference(BePractitioner or BeOrganization or BePatient)
