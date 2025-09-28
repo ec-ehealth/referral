@@ -2,7 +2,6 @@ CodeSystem: BeContrastFluidUse
 Id: be-vs-contrastfluid-use
 Title: "BeContrastFluidUse"
 Description: "Whether use of contrast fluid should be considered."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-vs-contrastfluid-use"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^experimental = false
