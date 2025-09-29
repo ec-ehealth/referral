@@ -3,7 +3,6 @@ Id: be-prescription-proposal-type
 Title: "BePrescriptionProposalType"
 Description: "Prescription Proposal Type. Indicates the type of proposal (new or prolongation) as from the uses cases by NIHDI"
 * ^version = "0.2.0"
-* ^status = #draft
 * ^experimental = false
 * ^date = "2022-05-03T10:04:16+02:00"
 * ^publisher = "HL7 Belgium"
