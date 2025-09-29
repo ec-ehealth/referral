@@ -3,7 +3,6 @@ Id: be-ext-contrastfluiduse
 Title: "BeContrastFluidUse"
 Description: "Whether the use of contrast fluid in diagnostic imaging can be defined as 'If necessary' or 'Not permitted.'"
 * ^version = "0.2.0"
-* ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
 * ^publisher = "HL7 Belgium"
 * ^contact[0].name = "HL7 Belgium"
