@@ -5,7 +5,7 @@ applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.drp
 name: Digital Referral Prescription
 title: Digital Referral Prescription
-status: draft
+status: active
 version: 1.0.0
 copyrightYear: 2022+
 releaseLabel: STU
