@@ -3,7 +3,6 @@ Title: "BeCommunicationMethod"
 Id: be-vs-communication-method
 Description: "Codes to define a communication method."
 * ^version = "0.2.0"
-* ^status = #draft
 * ^experimental = false
 * ^date = "2022-05-03T10:04:16+02:00"
 * ^publisher = "HL7 Belgium"
