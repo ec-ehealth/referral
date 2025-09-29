@@ -2,7 +2,6 @@ Profile: BeReferralPrescriptionNursing
 Parent: BeReferralPrescription
 Id: be-referralprescription-nursing
 Description: "The nursing profile, generic version. Please note the nursing referral for medication does NOT depend on this generic version but is a FHIR prodfile on a different FHIR resource (MedicationRequest)"
-* ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
 * ^publisher = "HL7 Belgium"
 * ^contact[0].name = "HL7 Belgium"
