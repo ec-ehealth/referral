@@ -3,7 +3,6 @@ Id: be-ext-urgent-communication
 Title: "BeUrgentCommunication"
 Description: "When there is a need to urgently communicate results of an order."
 * ^version = "0.2.0"
-* ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
 * ^publisher = "HL7 Belgium"
 * ^contact[0].name = "HL7 Belgium"
