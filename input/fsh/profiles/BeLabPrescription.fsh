@@ -2,7 +2,6 @@ Profile: BeLabPrescription
 Parent: BeReferralPrescription
 Id: be-lab-prescription
 Description: "This is the Belgian profile for a laboratory order."
-* ^status = #draft
 * ^date = "2021-07-15T08:52:50+00:00"
 * ^publisher = "HL7 Belgium"
 * ^contact[0].name = "HL7 Belgium"
