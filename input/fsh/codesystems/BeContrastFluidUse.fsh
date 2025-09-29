@@ -3,7 +3,6 @@ Id: be-vs-contrastfluid-use
 Title: "BeContrastFluidUse"
 Description: "Whether use of contrast fluid should be considered."
 * ^version = "0.2.0"
-* ^status = #draft
 * ^experimental = false
 * ^date = "2022-05-03T10:04:16+02:00"
 * ^publisher = "HL7 Belgium"
